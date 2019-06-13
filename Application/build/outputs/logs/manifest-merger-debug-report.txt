@@ -1,0 +1,97 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/sayani/androidStudio/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml:18:1-41:12
+MERGED from [com.android.support:support-v13:27.0.2] /home/sayani/.gradle/caches/transforms-2/files-2.1/1fa1534293a0dca5163ae4180b089608/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.0.2] /home/sayani/.gradle/caches/transforms-2/files-2.1/7f68ebad71658796944817e88fe50fdc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.0.2] /home/sayani/.gradle/caches/transforms-2/files-2.1/d9b58a4049b78929e0833524b4d6f66e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/sayani/.gradle/caches/transforms-2/files-2.1/0115daee77956173492133bf7fbfd35d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/sayani/.gradle/caches/transforms-2/files-2.1/a21ad5a7ae3bc9a3ba888d71a99a8c7a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] /home/sayani/.gradle/caches/transforms-2/files-2.1/c1393c8b802c01ce61302dd068748565/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/sayani/.gradle/caches/transforms-2/files-2.1/dc8bb8bf12bb601c60e59372f2514ca4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/sayani/.gradle/caches/transforms-2/files-2.1/9e4c065eeb4e62d09608e7ef05621e1b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/sayani/.gradle/caches/transforms-2/files-2.1/563caf93b689b76788bd67cafb7de8f3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/sayani/.gradle/caches/transforms-2/files-2.1/74f888a775884976d14533572ed703f3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] /home/sayani/.gradle/caches/transforms-2/files-2.1/3172f8165c67052c72aa10b6c7f39308/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/sayani/.gradle/caches/transforms-2/files-2.1/cf839ea4f370d0fa0621bb2bd86305e7/AndroidManifest.xml:17:1-24:12
+	package
+		ADDED from /home/sayani/androidStudio/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml:19:5-47
+	xmlns:android
+		ADDED from /home/sayani/androidStudio/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml:18:11-69
+uses-permission#android.permission.CAMERA
+ADDED from /home/sayani/androidStudio/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml:21:5-65
+	android:name
+		ADDED from /home/sayani/androidStudio/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml:21:22-62
+uses-feature#android.hardware.camera
+ADDED from /home/sayani/androidStudio/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml:23:5-60
+	android:name
+		ADDED from /home/sayani/androidStudio/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml:23:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from /home/sayani/androidStudio/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml:24:5-70
+	android:name
+		ADDED from /home/sayani/androidStudio/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml:24:19-67
+application
+ADDED from /home/sayani/androidStudio/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml:26:5-39:19
+	android:label
+		ADDED from /home/sayani/androidStudio/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml:27:9-41
+	android:icon
+		ADDED from /home/sayani/androidStudio/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml:28:9-45
+	android:allowBackup
+		ADDED from /home/sayani/androidStudio/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml:26:18-44
+	android:theme
+		ADDED from /home/sayani/androidStudio/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml:29:9-45
+activity#com.example.android.camera2basic.CameraActivity
+ADDED from /home/sayani/androidStudio/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml:31:9-38:20
+	android:screenOrientation
+		ADDED from /home/sayani/androidStudio/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml:33:13-50
+	android:label
+		ADDED from /home/sayani/androidStudio/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml:32:19-51
+	android:name
+		ADDED from /home/sayani/androidStudio/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml:31:19-49
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/sayani/androidStudio/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml:34:13-37:29
+action#android.intent.action.MAIN
+ADDED from /home/sayani/androidStudio/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml:35:17-69
+	android:name
+		ADDED from /home/sayani/androidStudio/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml:35:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/sayani/androidStudio/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml:36:17-77
+	android:name
+		ADDED from /home/sayani/androidStudio/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml:36:27-74
+uses-sdk
+INJECTED from /home/sayani/androidStudio/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/sayani/androidStudio/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml
+INJECTED from /home/sayani/androidStudio/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml
+MERGED from [com.android.support:support-v13:27.0.2] /home/sayani/.gradle/caches/transforms-2/files-2.1/1fa1534293a0dca5163ae4180b089608/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:27.0.2] /home/sayani/.gradle/caches/transforms-2/files-2.1/1fa1534293a0dca5163ae4180b089608/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /home/sayani/.gradle/caches/transforms-2/files-2.1/7f68ebad71658796944817e88fe50fdc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /home/sayani/.gradle/caches/transforms-2/files-2.1/7f68ebad71658796944817e88fe50fdc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] /home/sayani/.gradle/caches/transforms-2/files-2.1/d9b58a4049b78929e0833524b4d6f66e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] /home/sayani/.gradle/caches/transforms-2/files-2.1/d9b58a4049b78929e0833524b4d6f66e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/sayani/.gradle/caches/transforms-2/files-2.1/0115daee77956173492133bf7fbfd35d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/sayani/.gradle/caches/transforms-2/files-2.1/0115daee77956173492133bf7fbfd35d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/sayani/.gradle/caches/transforms-2/files-2.1/a21ad5a7ae3bc9a3ba888d71a99a8c7a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/sayani/.gradle/caches/transforms-2/files-2.1/a21ad5a7ae3bc9a3ba888d71a99a8c7a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /home/sayani/.gradle/caches/transforms-2/files-2.1/c1393c8b802c01ce61302dd068748565/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /home/sayani/.gradle/caches/transforms-2/files-2.1/c1393c8b802c01ce61302dd068748565/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/sayani/.gradle/caches/transforms-2/files-2.1/dc8bb8bf12bb601c60e59372f2514ca4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/sayani/.gradle/caches/transforms-2/files-2.1/dc8bb8bf12bb601c60e59372f2514ca4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/sayani/.gradle/caches/transforms-2/files-2.1/9e4c065eeb4e62d09608e7ef05621e1b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/sayani/.gradle/caches/transforms-2/files-2.1/9e4c065eeb4e62d09608e7ef05621e1b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/sayani/.gradle/caches/transforms-2/files-2.1/563caf93b689b76788bd67cafb7de8f3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/sayani/.gradle/caches/transforms-2/files-2.1/563caf93b689b76788bd67cafb7de8f3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/sayani/.gradle/caches/transforms-2/files-2.1/74f888a775884976d14533572ed703f3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/sayani/.gradle/caches/transforms-2/files-2.1/74f888a775884976d14533572ed703f3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /home/sayani/.gradle/caches/transforms-2/files-2.1/3172f8165c67052c72aa10b6c7f39308/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /home/sayani/.gradle/caches/transforms-2/files-2.1/3172f8165c67052c72aa10b6c7f39308/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/sayani/.gradle/caches/transforms-2/files-2.1/cf839ea4f370d0fa0621bb2bd86305e7/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/sayani/.gradle/caches/transforms-2/files-2.1/cf839ea4f370d0fa0621bb2bd86305e7/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/sayani/androidStudio/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml
+INJECTED from /home/sayani/androidStudio/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/sayani/androidStudio/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml
+		ADDED from /home/sayani/androidStudio/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml
+		INJECTED from /home/sayani/androidStudio/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/sayani/androidStudio/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml
+		ADDED from /home/sayani/androidStudio/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml
+		INJECTED from /home/sayani/androidStudio/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml

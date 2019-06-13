@@ -1,0 +1,4 @@
+#Wed Jun 12 13:40:25 EDT 2019
+base.0=/home/sayani/androidStudio/android-Camera2Basic-master/Application/build/intermediates/transforms/dexMerger/debug/4
+path.0=classes.dex
+renamed.0=classes.dex
